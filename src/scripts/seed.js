@@ -12,7 +12,7 @@ const seedAdmin = async () => {
 
       const admin = new User({
         name: 'Admin',
-        email: 'admin@example.com',
+        email: 'admin@gmail.com',
         password: hashedPassword,
         role: 'A',
       });
